@@ -1,0 +1,84 @@
+.modalContainer {
+  position: fixed;
+  top: 0;
+  left: 20%;
+  bottom: 0;
+  right: 0;
+  width: 80%;
+  height: 100vh;
+  padding: 30px;
+  background-color: white;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.dateTitle {
+  display: flex;
+  align-items: center;
+
+  width: calc(100% - 60px);
+  height: 64px;
+  border-radius: 5px;
+  background: #faefff;
+}
+.dateTitleText {
+  padding: 10px;
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 34px;
+
+  text-align: left;
+  color: #000000;
+}
+
+.diaryTitle {
+  width: 153px;
+  height: 30px;
+
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+
+  text-align: left;
+  padding: 20px;
+  color: #000000;
+  vertical-align: middle;
+  display: table-cell;
+  width: calc(100% - 60px);
+
+  background: #ffffff;
+}
+
+.diaryDescription {
+  /* Diary Description */
+  text-align: left;
+  padding: 20px;
+  width: calc(100% - 60px);
+  height: 100%;
+
+  background: #ffffff;
+}
+.diaryDescriptionText {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.exitButton {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  z-index: 1001;
+}

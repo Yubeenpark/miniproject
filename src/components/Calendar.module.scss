@@ -1,0 +1,214 @@
+.calendarContainer {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+.calendarGrid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  background: #ffffff;
+  background-color: #f9f9f9;
+}
+
+.calendarTopBar {
+  padding: 10px;
+  display: flex;
+  height: 140px;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.day {
+  height: 100px;
+  width: 100px;
+  padding: 5px;
+  font-size: 14px;
+  background-color: #ffffff;
+  border: 1px solid #e8e8e8;
+  text-align: left;
+
+  cursor: pointer;
+  &:hover {
+    background-color: #e0e0e0;
+  }
+}
+
+.daysOfWeek {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  padding: 10px;
+
+  font-weight: bold;
+  color: #333;
+  font-size: 14px;
+}
+
+.calendarBar {
+  background-color: #ffffff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.memoryButton {
+  display: flex;
+  width: 150px;
+  height: 40px;
+  color: #ffffff;
+  font-size: 14px;
+  background: #c564f2;
+  border-radius: 8px;
+}
+
+.plusButton {
+  width: 20px;
+  height: 20px;
+  color: white;
+  cursor: pointer;
+  padding-right: 4px;
+}
+
+.yearMonthStyle {
+  width: 123px;
+  height: 35px;
+  left: calc(50% - 123px / 2 - 0.5px);
+
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 34px;
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.buttonStyle {
+  width: 30px;
+  height: 30px;
+  background: none;
+  cursor: pointer;
+}
+
+.calendarHandler {
+  display: flex;
+  align-items: flex-end;
+  width: 200px;
+  height: 100%;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  height: 30px;
+  background-color: #ffffff;
+}
+
+.brandLogo {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+
+.brandLogoImage {
+  width: 30px;
+  align-items: center;
+}
+.calendarHeader {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.memoryButtonContainer {
+  display: flex;
+  justify-content: right;
+  align-items: flex-end;
+  width: 100%;
+  height: 100%;
+}
+
+.memoryButtonText {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.friendListContainer {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  float: left;
+  background-color: #ffffff;
+}
+
+.calendarGridContainer {
+  float: right;
+  background-color: #ffffff;
+}
+
+.calendarMainContainer {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+.friendContainer {
+  width: 100%;
+  padding: 10px;
+  height: 100%;
+  display: flex;
+  background-color: #ffffff;
+}
+.profileImageContainer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  float: left;
+}
+
+.profileImage {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  align-items: center;
+
+  background-color: rgb(112, 49, 49);
+}
+
+.friendName {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #000000;
+}
+.friendInfo {
+  background-color: aqua;
+  width: 100%;
+  height: 100%;
+  float: right;
+  border-bottom: 1px solid #e8e8e8;
+}
